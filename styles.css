@@ -4,6 +4,9 @@ body {
     font-family: Arial, sans-serif;
     transition: background 0.3s, color 0.3s;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /* Light & Dark Mode */
 body.light {
@@ -77,6 +80,24 @@ body.dark .navbar {
 body.dark .mobile-menu {
     background: rgba(46, 45, 43, 0.9);
 }
+.portfolio-logo {
+    text-decoration: none;  /* Remove underline */
+    font-size: 24px;        /* Adjust size */
+    font-weight: bold;
+    color: #F5E6CC;           /* Set color */
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.portfolio-logo:hover {
+    color: #b85042;  /* Change color on hover */
+}
+
+
+.portfolio-btn:hover {
+    background: #963a32; /* Darker shade on hover */
+}
+
 
 /* Theme Toggle Button */
 .theme-btn {
